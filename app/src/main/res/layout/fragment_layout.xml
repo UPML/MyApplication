@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/fragmentContainer">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="514dp"
+        android:layout_gravity="right|top"
+        android:weightSum="1"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_hide_button"
+            android:text="@string/hide"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/show"
+            android:id="@+id/fragment_show_button" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/Hello_world"
+            android:layout_weight="0.06"
+            android:id="@+id/fragment_hello_textView"
+            android:gravity="center_horizontal"
+            android:visibility="invisible" />
+    </LinearLayout>
+</FrameLayout>

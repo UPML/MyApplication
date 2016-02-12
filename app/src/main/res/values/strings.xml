@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hello</string>
+    <string name="pysh">Push</string>
+    <string name="Hello_world">Hello world</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="already_hided">Already hided</string>
+    <string name="already_showed">Already showed</string>
+
+</resources>
